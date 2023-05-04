@@ -12,6 +12,8 @@ const NewTask = (props) => {
     function submitTask(e) {
         e.preventDefault();
 
+
+        
         let newTask = {
             id: Math.random(),
             text: taskText,
